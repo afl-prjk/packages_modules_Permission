@@ -680,7 +680,8 @@ object RuntimePermissionsUpgradeController {
                             bgSensorsGroup.permGroupInfo,
                             allPermissionsWithExemption,
                             bgSensorsGroup.hasInstallToRuntimeSplit,
-                            bgSensorsGroup.specialLocationGrant
+                            bgSensorsGroup.specialLocationGrant,
+                            bgSensorsGroup.specialFixedStorageGrant,
                         )
 
                     // Grant the background permission only if foreground permission is granted.
